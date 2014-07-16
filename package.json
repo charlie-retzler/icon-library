@@ -1,0 +1,30 @@
+{
+  "name": "icon-library",
+  "version": "0.0.1",
+  "description": "A library of all icons available for use by crossroads.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.8.6",
+    "gulp-svg-sprites": "~0.1.2"
+  },
+  "devDependencies": {
+    "gulp-replace": "~0.4.0",
+    "gulp-rename": "~1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crdschurch/icon-library.git"
+  },
+  "keywords": [
+    "icons"
+  ],
+  "author": "Crossroads",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/crdschurch/icon-library/issues"
+  },
+  "homepage": "https://github.com/crdschurch/icon-library"
+}
