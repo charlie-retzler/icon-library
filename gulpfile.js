@@ -12,6 +12,7 @@ gulp.task('default', function() {
     .pipe(replace('background: black;', 'background: black;fill:white;'))
     .pipe(replace('css/sprites.css', 'assets/css/sprites.css'))
     .pipe(replace('Files Generated:', 'Instructions for using the Crossroads approved icons.'))
+    .pipe(replace('xlink:href=&quot;#', 'xlink:href=&quot;/icons/cr.svg#'))
     .pipe(replace(/<ol>(?:.|\n)*<\/ol>/gi, replacementtext))
     .pipe(rename("index.html"))
     .pipe(gulp.dest('.'));
